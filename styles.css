@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  position: relative;
+  margin: 0px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-top: 0%;
+  padding-top: 70.445px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* toliau bus popup */
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #2b2d42;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 100;
+}
+#popup {
+  visibility: visible;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #669bbc;
+  width: 600px;
+  height: 600px;
+  margin-left: -300px; /*Half the value of width to center div*/
+  margin-top: -300px; /*Half the value of height to center div*/
+  z-index: 200;
+  border-radius: 25px;
+}
+#popupclose {
+  visibility: visible;
+  float: right;
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  color: #9B0000
+
+}
+.popupcontent {
+  padding: 10px;
+}
+#button {
+  display: none;
+  cursor: pointer;
+}
+.p {
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 120%;
+}
+.simonPicture {
+  width: 150px;
+  height: 150px;
+}
+.h1-instruction {
+  font-family: 'Press Start 2P', cursive;
+}
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
